@@ -112,3 +112,19 @@ main h3 {
   height: 22px;
   margin: 30px 15px 0 30px;
 }
+
+.projects__coffee--logo1:hover {
+  opacity: 0.5;
+}
+
+.projects__my--logo1:hover {
+  opacity: 0.5;
+}
+
+.projects__coffee--logo2:hover {
+  opacity: 0.5;
+}
+
+.projects__my--logo2:hover {
+  opacity: 0.5;
+}

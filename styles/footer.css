@@ -23,7 +23,7 @@
 
 }
 
-.footer__contact--mail {
+.footer__contact--mail a {
   color: #C1D1AE;
   width: 194px;
   height: 25px;
@@ -33,6 +33,11 @@
   font-size: 18px;
   display: flex;
   justify-content: center;
+  text-decoration: none;
+}
+
+.footer__contact--mail:hover {
+  opacity: 0.5;
 }
 
 .footer__rrss {
@@ -45,4 +50,8 @@
 .footer__rrss--icon {
   width: 24px;
   height: 24px;
+}
+
+.footer__rrss--icon:hover {
+  opacity: 0.5;
 }

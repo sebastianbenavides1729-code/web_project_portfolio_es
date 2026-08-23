@@ -45,7 +45,7 @@ body {
 
 .header__info {
 
-  color: rgb(210, 219, 193, 0.5);
+  color: rgb(208, 219, 195, 0.5);
   width: 793px;
   height: 25px;
   margin-left: 120px;
@@ -88,6 +88,11 @@ body {
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 100% 4px;
+}
+
+.nav__links:hover {
+  opacity: 0.5;
+
 }
 
 

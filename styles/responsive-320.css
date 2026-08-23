@@ -221,11 +221,12 @@
   .footer__contact--mail {
 
     width: 194px;
-    height: 25px;
+    height: 45px;
     margin: 20px 0;
-    font-size: 14px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
+
   }
 
   .footer__rrss {
