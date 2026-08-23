@@ -107,6 +107,7 @@ main h3 {
 
 .projects__coffee--logo1,
 .projects__my--logo1 {
+  stroke: #C1D1AE;
   width: 132px;
   height: 22px;
   margin: 30px 15px 0 30px;
