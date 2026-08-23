@@ -1,0 +1,113 @@
+.main {
+  margin-top: 0;
+  width: 100%;
+
+  margin: 0;
+
+}
+
+main h2 {
+  margin-top: 0;
+  color: #fff;
+  width: 603px;
+  height: 44px;
+  padding-top: 95px;
+  margin-left: 120px;
+  font-family: "Archivo Black", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 30px;
+}
+
+.skills__tools {
+  width: 50px;
+  height: 50px;
+
+}
+
+main h3 {
+  width: 603px;
+  height: 44px;
+  color: #fff;
+  margin-top: 95px;
+  margin-left: 120px;
+  font-family: "Archivo Black", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.projects {
+  display: flex;
+  margin: 50px 120px 0px;
+  justify-content: space-between;
+
+}
+
+.projects__coffee,
+.projects__my {
+  background-color: #1C1C1C;
+  height: 680px;
+  position: relative;
+}
+
+.projects__coffee--img,
+.projects__my--img {
+
+  height: 330px;
+
+}
+
+.projects__coffee--min1 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 15px;
+  top: 280px;
+}
+
+.projects__coffee--min2 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 70px;
+  top: 280px;
+}
+
+.projects__coffee--title,
+.projects__my--title {
+  color: #fff;
+  width: 339px;
+  height: 33px;
+  margin: 0px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 30px;
+
+}
+
+.projects__coffee--p,
+.projects__my--p {
+  color: #fff;
+  width: 530px;
+  height: 175px;
+  margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.projects__coffee--logo1,
+.projects__my--logo1 {
+  width: 132px;
+  height: 22px;
+  margin: 30px 15px 0 30px;
+}
