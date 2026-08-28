@@ -1,18 +1,15 @@
 .main {
   margin-top: 0;
   width: 100%;
-
   margin: 0;
 
 }
 
 main h2 {
-  margin-top: 0;
+  margin: 95px 0 0 120px;
   color: #fff;
   width: 603px;
   height: 44px;
-  padding-top: 95px;
-  margin-left: 120px;
   font-family: "Archivo Black", "Arial", sans-serif;
   font-weight: 400;
   font-size: 40px;
@@ -44,21 +41,23 @@ main h3 {
 .projects {
   display: flex;
   margin: 50px 120px 0px;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 30px;
 
 }
 
 .projects__coffee,
 .projects__my {
+  width: 100%;
   background-color: #1C1C1C;
-  height: 680px;
   position: relative;
+
 }
 
 .projects__coffee--img,
 .projects__my--img {
-  width: 590px;
-  height: 330px;
+  width: 100%;
+  object-fit: cover;
 
 }
 
@@ -67,7 +66,7 @@ main h3 {
   height: 40px;
   position: absolute;
   left: 15px;
-  top: 280px;
+  top: 425px;
 }
 
 .projects__coffee--min2 {
@@ -75,7 +74,7 @@ main h3 {
   height: 40px;
   position: absolute;
   left: 70px;
-  top: 280px;
+  top: 425px;
 }
 
 .projects__coffee--title,
@@ -107,10 +106,16 @@ main h3 {
 
 .projects__coffee--logo1,
 .projects__my--logo1 {
-  stroke: #C1D1AE;
   width: 132px;
   height: 22px;
-  margin: 30px 15px 0 30px;
+  margin: 20px 15px 15px;
+}
+
+.projects__coffee--logo2,
+.projects__my--logo2 {
+  width: 83px;
+  height: 22px;
+  margin: 20px 15px 15px;
 }
 
 .projects__coffee--logo1:hover {
